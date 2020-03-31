@@ -1,19 +1,30 @@
 = Vim/marks =
 
+A *mark* allows you to record your current position so you can return to it later.
+There is no visible indication of where marks are set.
+
+Each file has a set of marks identified by _(lowercase)_ letters.
+In addition there is a global set of marks identified by _(uppercase)_ letters.
+
+
 == Creating marks ==
-* ma - set current position for mark a
+* `ma` - set current position for mark a
+
 
 == Jumping to mark ==
-* `a - jump to position of mark a
-* 'a - jump to line of mark a
+* ``a` - jump to position of mark a
+* `'a` - jump to line of mark a
 
-* ]' - jump to next line with a lowercase mark
-* [' - jump to previous line with a lowercase mark
-* ]` - jump to next lowercase mark
-* [` - jump to previous lowercase mark
+* `]'` - jump to next line with a lowercase mark
+* `['` - jump to previous line with a lowercase mark
+* `]`` - jump to next lowercase mark
+* `[`` - jump to previous lowercase mark
+
 
 == Special marks ==
-* . - position of last change in current buffer
-* " - position where last exited current buffer
+* `.` - position of last change in current buffer
+* `"` - position where last exited current buffer
 
-* :marks - list of marks
+* `:marks` - list of marks
+
+
