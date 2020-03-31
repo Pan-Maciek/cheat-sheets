@@ -1,0 +1,19 @@
+= Vim/marks =
+
+== Creating marks ==
+* ma - set current position for mark a
+
+== Jumping to mark ==
+* `a - jump to position of mark a
+* 'a - jump to line of mark a
+
+* ]' - jump to next line with a lowercase mark
+* [' - jump to previous line with a lowercase mark
+* ]` - jump to next lowercase mark
+* [` - jump to previous lowercase mark
+
+== Special marks ==
+* . - position of last change in current buffer
+* " - position where last exited current buffer
+
+* :marks - list of marks
