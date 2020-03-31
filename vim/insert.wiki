@@ -1,0 +1,19 @@
+= Vim/insert =
+
+== Entering insert mode ==
+* i - insert *before the cursor*
+* I - insert at *the beginning of the line*
+* a - append *after the cursor*
+* A - append *at the end of the line*
+* o - append a new line *below the current line*
+* O - append a new line *above the current line*
+
+== Exit insert mode == 
+* <C-c> 
+* Esc
+
+== Completion ==
+* <C-n> - *next* completion
+* <C-p> - *previous* completion
+* <C-x><C-f> - *file* completion
+* <C-x><C-l> - *line* completion
