@@ -10,6 +10,7 @@
 
 == Exit insert mode == 
 * `<C-c>` 
+* `<C-[>`
 * `Esc`
 
 == Completion ==
@@ -17,3 +18,21 @@
 * `<C-p>` - *previous* completion
 * `<C-x><C-f>` - *file* completion
 * `<C-x><C-l>` - *line* completion
+* `<C-x><C-s>` - *spelling* suggestion
+
+== Foo ==
+* `<C-A>` - insert previously inserted text
+* `<C-h>` - delete the character before the cursor
+* `<C-w>` - delete the word before the cursor
+* `<C-j>` - begin new line
+* `<C-m>` - begin new line
+* `<C-r>` - insert contents of a [[vim/registers|register]]
+* `<C-t>` - insert one shift-width of indent at the start of the current line
+* `<C-d>` - delete one shift-width of indent at the start of the current line
+* `<C-g> u` - break undo sequence, start new change
+
+== Scrolling ==
+* `<C-x><C-e>` - scroll window one line up
+* `<C-x><C-y>` - scroll window one line down
+
+
